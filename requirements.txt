@@ -5,8 +5,7 @@ pytube
 google-api-python-client
 git+https://github.com/rodrigosestari/instagram-explore.git#egg=instagram-explore
 bs4
+facebook-sdk
 
-git+https://github.com/mobolic/facebook-sdk.git#egg=facebook-sdk
-#facebook-sdk
-
-
+pytumblr
+feedparser

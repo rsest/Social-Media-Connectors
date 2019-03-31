@@ -7,3 +7,5 @@
 - Facebook
 - Google
 - Reddit
+- Tumblr
+- Feeds
