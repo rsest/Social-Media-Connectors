@@ -37,5 +37,6 @@ def get_freebase(id: str, type: str = "wdt:P646"):
         return r.json()["results"]["bindings"][0]["sLabel"]["value"]
     return None
 
-print(get_freebase("/g/11b77dhw00", type="P2671"))
-print(get_freebase("/m/06pvzt", type="wdt:P646"))
+
+print(get_freebase("/g/11bxf4crlf", type="wdt:P2671"))
+print(get_freebase("/m/04wzr", type="wdt:P646"))
