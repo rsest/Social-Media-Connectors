@@ -9,3 +9,5 @@ facebook-sdk
 
 pytumblr
 feedparser
+
+Wikidata

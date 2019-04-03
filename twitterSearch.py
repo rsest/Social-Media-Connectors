@@ -22,7 +22,7 @@ if save_places:
         # https: // developer.twitter.com / en / docs / geo / places - near - location / api - reference / get - geo - reverse_geocode
 trends = api.trends_place(116545)
 print(json.dumps(trends[0], indent=4))
-pos = api.geo_search(lat=19.4326,long=-99.1332)
+pos = api.geo_search(lat=19.4326, long=-99.1332)
 
 search_results = api.search(q="klar", geocode='19.4326,-99.133,30mi', count=30, include_entities=True)
 search_hashtag = tweepy.Cursor(api.search, q="klar", geocode='19.4326,-99.133,200mi', include_entities=True).items(5000)
@@ -32,7 +32,6 @@ for tweet in search_hashtag:
     if 'media' in tweet.entities:
         for image in tweet.entities['media']:
             print(image['media_url'])
-
 
 public_tweets = api.home_timeline()
 for tweet in public_tweets:

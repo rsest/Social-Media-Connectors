@@ -5,7 +5,9 @@
 - Google Trends
 - Instagram
 - Facebook
-- Google
+- Google Search
 - Reddit
 - Tumblr
 - Feeds
+- kgsearch
+- wikidata
