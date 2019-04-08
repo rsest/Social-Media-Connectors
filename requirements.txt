@@ -11,3 +11,5 @@ pytumblr
 feedparser
 
 Wikidata
+
+tornado
